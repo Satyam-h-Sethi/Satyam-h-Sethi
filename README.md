@@ -1,92 +1,96 @@
-# Satyam Sethi
+<div align="center">
 
-**FinTech · Software Engineering · Automation · DevOps**
+<img src="./assets/hero-banner.svg" alt="Satyam Sethi - FinTech, Software Engineering, Automation" width="100%" />
 
-I am a Software and Quality Engineering Lead at **ION**, where I lead a team of 7+ engineers on **ION Data Service (IDS)**—a core financial data platform handling market feeds, pricing, margin calculations, and exchange integrations. My engineering focus is on data reliability, high-throughput financial workflows, and automation that eliminates operational friction.
+<br/>
 
----
+### *“I build systems where bad data isn't an option.”*
 
-### Snapshot
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/satyam-sethi) &nbsp; [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://satyam-sethi.netlify.app/) &nbsp; [![Projects](https://img.shields.io/badge/Featured_Builds-3B82F6?style=for-the-badge&logo=github&logoColor=white)](#-selected-builds)
 
-| Focus | Domain | Building |
-| :--- | :--- | :--- |
-| **Engineering Leadership** | FinTech & Market Data | Reliable data pipelines & validation engines |
-| **Software Engineering** | Cleared Derivatives | Resilient backend services & APIs |
-| **DevOps & Automation** | Systems & Infrastructure | CI/CD, testing frameworks & developer tooling |
+<br/>
 
----
+`Software / Quality Engineering Lead @ ION` &nbsp;·&nbsp; `Financial Data` &nbsp;·&nbsp; `Cleared Derivatives`
 
-### What I Work On
-
-* **Financial Data**: High-integrity validation, product and contract master data feeds, real-time pricing, and margin calculations.
-* **Automation**: Robust UI/API test automation frameworks, regression pipelines, and deterministic tooling that eliminates repetitive engineering overhead.
-* **Backend & Systems**: REST APIs, stateful workflows, reverse proxies, and lightweight developer utilities.
-* **DevOps**: CI/CD automation, containerization with Docker, AWS infrastructure, Jenkins pipelines, and Linux systems.
+</div>
 
 ---
 
-### FinTech Background
+### What I Build
 
-Professionally, my work is centered on mission-critical financial platforms where data errors carry real financial risk:
-
-* **ION Data Service (IDS)**: Leading engineering and quality initiatives for financial reference data, contract specifications, and pricing feeds across global exchanges.
-* **XTP Core**: Previously contributed to core engineering and verification for a real-time cleared-derivatives processing engine.
-* **Core Problems**: Data quality enforcement, transaction lifecycle tracking, contract synchronization, and low-latency API verification.
+* 💸 **Financial Systems** — Reconciliation engines, ISO data validation, and multi-rail settlement state machines.
+* ⚙️ **Engineering** — High-performance backend services, REST APIs, and automated test frameworks.
+* 🚀 **Infrastructure** — CI/CD pipelines, Docker containerization, AWS infrastructure, and real-time monitoring.
 
 ---
 
-### Selected Builds
+### 🚀 Selected Builds
 
-A curated selection of open-source tools and engineering prototypes:
-
-#### FinTech & Financial Systems
-* **[transaction-reconciliation-engine](https://github.com/Satyam-h-Sethi/transaction-reconciliation-engine)** — Multi-way reconciliation engine matching internal ledgers against bank statements with automated break detection and interactive dashboard.  
-  `Node.js` · `Reconciliation` · `Vanilla JS` · [View project →](https://github.com/Satyam-h-Sethi/transaction-reconciliation-engine)
-* **[financial-data-quality-validator](https://github.com/Satyam-h-Sethi/financial-data-quality-validator)** — Rule-based compliance validator enforcing ISO 6166 (ISIN checksums), ISO 4217, LEI formatting, and trade logic.  
-  `JavaScript` · `ISO Standards` · `Compliance` · [View project →](https://github.com/Satyam-h-Sethi/financial-data-quality-validator)
-* **[settlement-monitor](https://github.com/Satyam-h-Sethi/settlement-monitor)** — Multi-rail clearing operations monitor (Fedwire, SWIFT, SEPA, ACH, RTGS) with latency tracking and exception diagnosis.  
-  `Node.js` · `State Machine` · `Clearing Operations` · [View project →](https://github.com/Satyam-h-Sethi/settlement-monitor)
-* **[ExchangeLens](https://github.com/Satyam-h-Sethi/ExchangeLens)** — Financial exchange analytics and market data visualization interface.  
-  `JavaScript` · `Market Data` · `FinTech` · [View project →](https://github.com/Satyam-h-Sethi/ExchangeLens)
-
-#### Systems & Developer Tools
-* **[http-cache-proxy](https://github.com/Satyam-h-Sethi/http-cache-proxy)** — In-memory caching reverse proxy with TTL eviction, `X-Cache` telemetry, and live traffic analytics.  
-  `Node.js` · `HTTP` · `Caching` · [View project →](https://github.com/Satyam-h-Sethi/http-cache-proxy)
-* **[url-health-monitor](https://github.com/Satyam-h-Sethi/url-health-monitor)** — High-concurrency endpoint uptime and latency checker with automated status alerts and browser dashboard.  
-  `Node.js` · `Concurrency` · `Monitoring` · [View project →](https://github.com/Satyam-h-Sethi/url-health-monitor)
-* **[api-payload-mock-server](https://github.com/Satyam-h-Sethi/api-payload-mock-server)** — Lightweight REST API mock server with customizable routes, status overrides, and simulated network latency.  
-  `Node.js` · `REST API` · `Testing Tools` · [View project →](https://github.com/Satyam-h-Sethi/api-payload-mock-server)
-* **[json-schema-visualizer](https://github.com/Satyam-h-Sethi/json-schema-visualizer)** — Interactive JSON inspector generating TypeScript interfaces and Draft-07 schemas from arbitrary payloads.  
-  `JavaScript` · `TypeScript` · `JSON Schema` · [View project →](https://github.com/Satyam-h-Sethi/json-schema-visualizer)
-
----
-
-### Currently Building
-
-* Self-contained, zero-dependency engineering utilities and simulation models.
-* Real-time financial transaction lifecycle and reconciliation tooling.
-* CI/CD automation and test engineering workflows.
-* AI-assisted developer tooling and intelligent verification pipelines.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/Satyam-h-Sethi/transaction-reconciliation-engine">transaction-reconciliation-engine</a></h4>
+      <p>Multi-way ledger reconciliation matching internal transactions against bank feeds with automated discrepancy detection and break resolution.</p>
+      <code>Node.js</code> <code>Reconciliation</code> <code>Vanilla JS</code>
+      <br/><br/>
+      <a href="https://github.com/Satyam-h-Sethi/transaction-reconciliation-engine">View project →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/Satyam-h-Sethi/financial-data-quality-validator">financial-data-quality-validator</a></h4>
+      <p>Rule-based compliance validator enforcing ISO 6166 ISIN checksums, ISO 4217 currencies, LEI formatting, and trade integrity rules.</p>
+      <code>JavaScript</code> <code>ISO Standards</code> <code>Compliance</code>
+      <br/><br/>
+      <a href="https://github.com/Satyam-h-Sethi/financial-data-quality-validator">View project →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/Satyam-h-Sethi/settlement-monitor">settlement-monitor</a></h4>
+      <p>Multi-rail clearing operations monitor (Fedwire, SWIFT, SEPA, ACH, RTGS) tracking settlement cycles, latency, and exception diagnosis.</p>
+      <code>Node.js</code> <code>State Machine</code> <code>FinTech</code>
+      <br/><br/>
+      <a href="https://github.com/Satyam-h-Sethi/settlement-monitor">View project →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/Satyam-h-Sethi/http-cache-proxy">http-cache-proxy</a></h4>
+      <p>In-memory caching reverse proxy with TTL eviction, <code>X-Cache</code> telemetry headers, and live traffic analytics.</p>
+      <code>Node.js</code> <code>HTTP</code> <code>Caching</code>
+      <br/><br/>
+      <a href="https://github.com/Satyam-h-Sethi/http-cache-proxy">View project →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/Satyam-h-Sethi/url-health-monitor">url-health-monitor</a></h4>
+      <p>High-concurrency endpoint health and latency monitor with live visual metrics, CSV/JSON exports, and automated alerts.</p>
+      <code>Node.js</code> <code>Concurrency</code> <code>Monitoring</code>
+      <br/><br/>
+      <a href="https://github.com/Satyam-h-Sethi/url-health-monitor">View project →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/Satyam-h-Sethi/json-schema-visualizer">json-schema-visualizer</a></h4>
+      <p>Interactive JSON hierarchy inspector generating TypeScript interfaces and Draft-07 schemas from arbitrary payloads.</p>
+      <code>JavaScript</code> <code>TypeScript</code> <code>JSON Schema</code>
+      <br/><br/>
+      <a href="https://github.com/Satyam-h-Sethi/json-schema-visualizer">View project →</a>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ### Tech Stack
 
-* **Languages**: Python · Java · JavaScript (ES6+ / Node.js) · SQL
-* **Backend & Data**: REST APIs · Oracle / SQL · In-Memory Caching · Data Validation Pipelines
-* **DevOps & Cloud**: Docker · Jenkins · GitHub Actions · AWS · Linux / Bash
-* **Engineering Practice**: CI/CD Automation · Test Automation (UI/API) · System Design · Clean Code
+`Python` &nbsp;·&nbsp; `Java` &nbsp;·&nbsp; `JavaScript` &nbsp;·&nbsp; `SQL` &nbsp;·&nbsp; `Node.js` &nbsp;·&nbsp; `Docker` &nbsp;·&nbsp; `AWS` &nbsp;·&nbsp; `Jenkins` &nbsp;·&nbsp; `Linux`
 
 ---
 
-### Beyond GitHub
+<div align="center">
 
-> *Most of my professional work happens inside enterprise financial systems and engineering teams; GitHub is where I experiment, build developer tooling, and turn ideas into working software.*
+More professional writing &amp; engineering thoughts → **[LinkedIn (4.6K+ followers)](https://www.linkedin.com/in/satyam-sethi)**
 
-* **LinkedIn**: [linkedin.com/in/satyam-sethi](https://www.linkedin.com/in/satyam-sethi) *(4.6K+ followers)*
-* **Portfolio**: [satyam-sethi.netlify.app](https://satyam-sethi.netlify.app/)
-* **Location**: Noida, India
+<br/>
 
----
+<sub>*Build useful things. Make them deterministic. Automate the boring parts. Ship.*</sub>
 
-<sub>Build systems that are reliable by design, observable by default, and simple enough to reason about.</sub>
+</div>
