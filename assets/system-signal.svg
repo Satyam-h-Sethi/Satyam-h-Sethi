@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 68" width="100%" height="100%">
+  <defs>
+    <style>
+      @keyframes pulseNode {
+        0%, 100% { fill: #38bdf8; opacity: 1; transform: scale(1); }
+        50% { fill: #34d399; opacity: 0.7; transform: scale(1.15); }
+      }
+      @keyframes radarWave {
+        0% { r: 3.5px; opacity: 0.9; }
+        100% { r: 12px; opacity: 0; }
+      }
+      @keyframes beamFlow {
+        0% { stroke-dashoffset: 200; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes packetTravel {
+        0% { transform: translateX(0); opacity: 0; }
+        15% { opacity: 1; }
+        85% { opacity: 1; }
+        100% { transform: translateX(780px); opacity: 0; }
+      }
+
+      .node-live { animation: pulseNode 3s ease-in-out infinite; transform-origin: center; }
+      .radar-ping { animation: radarWave 2s cubic-bezier(0, 0.6, 0.4, 1) infinite; transform-origin: center; }
+      .pipe-flow { stroke-dasharray: 6 4; animation: beamFlow 10s linear infinite; }
+      .data-packet { animation: packetTravel 4.5s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+    </style>
+
+    <linearGradient id="panelBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(11, 19, 41, 0.85)" />
+      <stop offset="100%" stop-color="rgba(6, 24, 41, 0.85)" />
+    </linearGradient>
+
+    <linearGradient id="pipeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#60a5fa" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="900" height="68" rx="10" fill="url(#panelBg)" stroke="rgba(56, 189, 248, 0.25)" stroke-width="1.2" />
+
+  <!-- Flow Track Line -->
+  <line x1="60" y1="34" x2="840" y2="34" stroke="url(#pipeGrad)" stroke-width="2" class="pipe-flow" opacity="0.6" />
+
+  <!-- Animated Traveling Data Packet -->
+  <circle cx="60" cy="34" r="3" fill="#38bdf8" class="data-packet" filter="drop-shadow(0 0 5px #38bdf8)" />
+
+  <!-- Stage 1: Market Feeds -->
+  <g transform="translate(60, 34)">
+    <circle cx="0" cy="0" r="10" fill="rgba(56, 189, 248, 0.15)" />
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#38bdf8" stroke-width="1" class="radar-ping" />
+    <circle cx="0" cy="0" r="4.5" fill="#38bdf8" class="node-live" />
+    <text x="0" y="24" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" text-anchor="middle" letter-spacing="0.5">FEED INGESTION</text>
+  </g>
+
+  <!-- Stage 2: ISO Validation -->
+  <g transform="translate(255, 34)">
+    <circle cx="0" cy="0" r="10" fill="rgba(99, 102, 241, 0.15)" />
+    <circle cx="0" cy="0" r="4.5" fill="#818cf8" class="node-live" />
+    <text x="0" y="24" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" text-anchor="middle" letter-spacing="0.5">ISO VALIDATION</text>
+  </g>
+
+  <!-- Stage 3: Reconciliation Engine -->
+  <g transform="translate(450, 34)">
+    <circle cx="0" cy="0" r="10" fill="rgba(56, 189, 248, 0.15)" />
+    <circle cx="0" cy="0" r="4.5" fill="#38bdf8" class="node-live" />
+    <text x="0" y="24" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" text-anchor="middle" letter-spacing="0.5">RECONCILIATION</text>
+  </g>
+
+  <!-- Stage 4: Settlement Lifecycle -->
+  <g transform="translate(645, 34)">
+    <circle cx="0" cy="0" r="10" fill="rgba(52, 211, 153, 0.15)" />
+    <circle cx="0" cy="0" r="4.5" fill="#34d399" class="node-live" />
+    <text x="0" y="24" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" text-anchor="middle" letter-spacing="0.5">CLEARING &amp; SETTLEMENT</text>
+  </g>
+
+  <!-- Stage 5: Real-Time Observability -->
+  <g transform="translate(840, 34)">
+    <circle cx="0" cy="0" r="10" fill="rgba(52, 211, 153, 0.15)" />
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#34d399" stroke-width="1" class="radar-ping" />
+    <circle cx="0" cy="0" r="4.5" fill="#34d399" class="node-live" />
+    <text x="0" y="24" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" text-anchor="middle" letter-spacing="0.5">OBSERVABILITY</text>
+  </g>
+</svg>

@@ -14,9 +14,7 @@
 
 <br/>
 
-```
-📡 CURRENT FOCUS: Data Integrity & Reconciliation → Stateful Clearing Pipelines → CI/CD Automation
-```
+<img src="./assets/system-signal.svg" alt="Architecture Pipeline: Ingestion -> Validation -> Reconciliation -> Settlement -> Observability" width="100%" />
 
 </div>
 
@@ -24,8 +22,8 @@
 
 ### What I Build
 
-* 💸 **Financial Systems** — Multi-way reconciliation engines, ISO validation suites, and multi-rail settlement state machines.
-* ⚙️ **Engineering** — In-memory reverse proxies, concurrency tools, REST APIs, and test automation frameworks.
+* 💸 **Financial Systems** — Multi-way reconciliation engines, ISO compliance validators, and multi-rail settlement state machines.
+* ⚙️ **Engineering** — In-memory reverse proxies, concurrency tools, REST APIs, and automated test frameworks.
 * 🚀 **Infrastructure** — CI/CD delivery pipelines, Docker containerization, AWS cloud, and high-concurrency probing.
 
 ---
