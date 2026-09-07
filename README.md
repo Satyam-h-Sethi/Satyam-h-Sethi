@@ -171,9 +171,43 @@
 
 ---
 
-### Tech Stack
+### 🛠️ Engineering Stack & Tooling
 
-`Python` &nbsp;·&nbsp; `Java` &nbsp;·&nbsp; `JavaScript` &nbsp;·&nbsp; `SQL` &nbsp;·&nbsp; `Node.js` &nbsp;·&nbsp; `Docker` &nbsp;·&nbsp; `AWS` &nbsp;·&nbsp; `Jenkins` &nbsp;·&nbsp; `Linux`
+<sub>Core languages, cloud infrastructure, and systems engineering tools I build with.</sub>
+
+<br/><br/>
+
+**⚙️ Languages & Runtimes**
+<br/>
+[![Python](https://img.shields.io/badge/Python-141413?style=for-the-badge&logo=python&logoColor=3776AB)](https://python.org)
+[![Java](https://img.shields.io/badge/Java-141413?style=for-the-badge&logo=openjdk&logoColor=ED8B00)](https://www.oracle.com/java/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-141413?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![TypeScript](https://img.shields.io/badge/TypeScript-141413?style=for-the-badge&logo=typescript&logoColor=3178C6)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-141413?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E)](https://nodejs.org/)
+[![SQL / PostgreSQL](https://img.shields.io/badge/SQL_%2F_PostgreSQL-141413?style=for-the-badge&logo=postgresql&logoColor=4169E1)](https://www.postgresql.org/)
+[![Bash](https://img.shields.io/badge/Bash-141413?style=for-the-badge&logo=gnubash&logoColor=4EAA25)](https://www.gnu.org/software/bash/)
+
+<br/>
+
+**☁️ Infrastructure, Cloud & DevOps**
+<br/>
+[![Docker](https://img.shields.io/badge/Docker-141413?style=for-the-badge&logo=docker&logoColor=2496ED)](https://www.docker.com/)
+[![AWS](https://img.shields.io/badge/AWS-141413?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)](https://aws.amazon.com/)
+[![Linux](https://img.shields.io/badge/Linux-141413?style=for-the-badge&logo=linux&logoColor=FCC624)](https://www.linux.org/)
+[![Jenkins](https://img.shields.io/badge/Jenkins-141413?style=for-the-badge&logo=jenkins&logoColor=D24939)](https://www.jenkins.io/)
+[![Cloudflare](https://img.shields.io/badge/Cloudflare-141413?style=for-the-badge&logo=cloudflare&logoColor=F38020)](https://www.cloudflare.com/)
+[![Git](https://img.shields.io/badge/Git-141413?style=for-the-badge&logo=git&logoColor=F05032)](https://git-scm.com/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-141413?style=for-the-badge&logo=githubactions&logoColor=2088FF)](https://github.com/features/actions)
+
+<br/>
+
+**🔧 Architecture & Systems Engineering**
+<br/>
+[![REST APIs](https://img.shields.io/badge/REST_APIs-141413?style=for-the-badge&logo=postman&logoColor=FF6C37)](https://postman.com/)
+[![In-Memory Caching](https://img.shields.io/badge/In--Memory_Caching-141413?style=for-the-badge&logo=redis&logoColor=DC382D)](#)
+[![Data Validation](https://img.shields.io/badge/Data_Validation-141413?style=for-the-badge&logo=json&logoColor=white)](#)
+[![CI/CD Automation](https://img.shields.io/badge/CI%2FCD_Automation-141413?style=for-the-badge&logo=github&logoColor=white)](#)
+[![ISO Compliance](https://img.shields.io/badge/ISO_Compliance_%26_Clearing-141413?style=for-the-badge&logo=markdown&logoColor=white)](#)
 
 ---
 
