@@ -96,11 +96,75 @@
     </td>
     <td width="50%" valign="top">
       <div><strong><code>DEVELOPER TOOLS</code></strong></div>
+      <h4><a href="https://regex.satyamsethi.dpdns.org">regex-debugger-visualizer</a></h4>
+      <p>Interactive regex engine highlighting matches and capture groups in real time with token breakdowns and presets.</p>
+      <code>JavaScript</code> <code>RegEx</code> <code>Web Tool</code>
+      <br/><br/>
+      <a href="https://regex.satyamsethi.dpdns.org"><strong>Live Demo ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Satyam-h-Sethi/regex-debugger-visualizer">Source →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <div><strong><code>DEVELOPER TOOLS</code></strong></div>
       <h4><a href="https://ascii.satyamsethi.dpdns.org">ascii-diagram-generator</a></h4>
       <p>Interactive ASCII architecture studio and DSL compiler generating flowcharts, sequence diagrams, and boxes.</p>
       <code>JavaScript</code> <code>ASCII Art</code> <code>CLI & Web</code>
       <br/><br/>
       <a href="https://ascii.satyamsethi.dpdns.org"><strong>Live Demo ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Satyam-h-Sethi/ascii-diagram-generator">Source →</a>
+    </td>
+    <td width="50%" valign="top">
+      <div><strong><code>DEVELOPER TOOLS</code></strong></div>
+      <h4><a href="https://markdown.satyamsethi.dpdns.org">markdown-to-html-cli</a></h4>
+      <p>Fast zero-dependency Markdown parser and live Web Studio with light/dark styling and instant HTML export.</p>
+      <code>Node.js</code> <code>Markdown</code> <code>CLI & Web</code>
+      <br/><br/>
+      <a href="https://markdown.satyamsethi.dpdns.org"><strong>Live Demo ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Satyam-h-Sethi/markdown-to-html-cli">Source →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <div><strong><code>API & TESTING</code></strong></div>
+      <h4><a href="https://mock.satyamsethi.dpdns.org">api-payload-mock-server</a></h4>
+      <p>Lightweight mock REST API server and payload studio with simulated latency throttling and status overrides.</p>
+      <code>Node.js</code> <code>HTTP Mock</code> <code>REST API</code>
+      <br/><br/>
+      <a href="https://mock.satyamsethi.dpdns.org"><strong>Live Demo ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Satyam-h-Sethi/api-payload-mock-server">Source →</a>
+    </td>
+    <td width="50%" valign="top">
+      <div><strong><code>DEVELOPER TOOLS</code></strong></div>
+      <h4><a href="https://craft.satyamsethi.dpdns.org">git-commit-craft</a></h4>
+      <p>Interactive Conventional Commits builder with scope formatting, breaking change flags, and CLI generators.</p>
+      <code>JavaScript</code> <code>Git</code> <code>Productivity</code>
+      <br/><br/>
+      <a href="https://craft.satyamsethi.dpdns.org"><strong>Live Demo ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Satyam-h-Sethi/git-commit-craft">Source →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <div><strong><code>DESIGN & ACCESSIBILITY</code></strong></div>
+      <h4><a href="https://palette.satyamsethi.dpdns.org">color-palette-harmonies</a></h4>
+      <p>Color harmony engine and WCAG 2.1 contrast analyzer computing accessible palettes with CSS tokens export.</p>
+      <code>JavaScript</code> <code>WCAG 2.1</code> <code>Design Tokens</code>
+      <br/><br/>
+      <a href="https://palette.satyamsethi.dpdns.org"><strong>Live Demo ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Satyam-h-Sethi/color-palette-harmonies">Source →</a>
+    </td>
+    <td width="50%" valign="top">
+      <div><strong><code>PRODUCTIVITY</code></strong></div>
+      <h4><a href="https://pomodoro.satyamsethi.dpdns.org">pomodoro-timer-cli</a></h4>
+      <p>Minimal Pomodoro focus timer for terminal and browser with customizable intervals and audio notifications.</p>
+      <code>Node.js</code> <code>CLI & Web</code> <code>Productivity</code>
+      <br/><br/>
+      <a href="https://pomodoro.satyamsethi.dpdns.org"><strong>Live Demo ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Satyam-h-Sethi/pomodoro-timer-cli">Source →</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <div><strong><code>CONTENT & SYSTEMS</code></strong></div>
+      <h4><a href="https://posts.satyamsethi.dpdns.org">linkedin-engineering-content</a></h4>
+      <p>Technical content engine and pixel-perfect feed simulator previewing systems engineering, FinTech, and architecture posts.</p>
+      <code>Markdown</code> <code>Content Engine</code> <code>Feed Preview</code>
+      <br/><br/>
+      <a href="https://posts.satyamsethi.dpdns.org"><strong>Live Demo ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Satyam-h-Sethi/linkedin-engineering-content">Source →</a>
     </td>
   </tr>
 </table>
